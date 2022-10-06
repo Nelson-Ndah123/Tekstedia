@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tekstedia Company</title>
+    <!--bootstrap link-->
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+    <!--bootstrap link-->
+    <!--FONT AWESOME CDN LINK-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+     <!--cutom css file link-->
+     <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+        <!--header section starts-->
+    <header class="header">
+        <a href="#" class="logo"><img src="img/logo/IMG-20220920-WA0022.jpg" alt="" style="width: 140px; height: 50px;"></a>
+
+        <nav class="navbar">
+            <a href="index.html" class="hom">Home</a>
+            <a href="about.html">About</a>
+            <a href="#">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="blogs.html">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+           
+            
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here..." class="search">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/watermelon/1.jpg" alt="" class="watermelon">
+                <div class="content">
+                    <h3>watermelon</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/onion/2.jpg" alt="" class="onion">
+                <div class="content">
+                    <h3>onion</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/chicken/1.jpg" alt="" class="chicken">
+                <div class="content">
+                    <h3>chicken</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : $19.96/- </div>
+            <a href="products.html" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <p>forget your password <a href="#">click here </a></p>
+            <p>dont have an account<a href="#">creat now </a></p>
+            <input type="submit" value="login now" class="btn1">
+        </form>
+
+    </header>
+    <!--header section ends-->
+
+
+    <!--home section starts-->
+         <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="img/running-code-side-by-side-picture-id638621024" style="width:100%; height: 555px;">
+      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="img/digital-software-technology-development-concept-coder-programmer-picture-id1403217146" style="width:100%; height: 555px;">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="img/diverse-group-of-professionals-meeting-in-modern-office-brainstorming-picture-id1354205084" style="width:100%; height: 555px;">
+      <div class="text">Caption Three</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <div class="slider-content1">
+    <h2>SERVICES</h2>
+  </div>
+  <div class="slider-content2">
+    <p>Services /<span style="color: red; text-transform:lowercase; margin-left: 5px; text-shadow: none;">Services</span></p>
+  </div>
+     
+    <!--home section ends-->
+
+
+         <!--services section starts-->
+
+      <!-- MAIN (Center website) -->
+<div class="main">
+
+    <h1 id="main-services">Our Services</h1>
+    <hr>
+    
+    <h2>PORTFOLIO</h2>
+    <p>We offer you with our numerous proffessional services.</p>
+    
+    <!-- Portfolio Gallery Grid -->
+    <div class="rows" id="services-1">
+      <div class="column">
+        <div class="content">
+          <img src="img/photo-1607252650355-f7fd0460ccdb" alt="Mountains" style="width:100%">
+          <div class="flip-box-back">
+              
+          </div>
+          <h3>Mobile app development</h3>
+         <button onclick="openNav()">Read More</button>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content" style="line-height: 26px;">
+          <img src="img/images/smart-female-it-programer-working-on-desktop-computer-in-data-center-picture-id1194430863" alt="Lights" style="width:100%;" >
+          <h3>Industrial Software Development</h3>
+          <button onclick="openNav1()">Read More</button>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content" style="line-height: 30px;">
+          <img src="img/1591419798-70-tekstedia-ltd.jpg" alt="Nature" style="width:100%">
+          <h3>Graphics Designing</h3>
+          <button onclick="openNav2()">Read More</button>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content" style="line-height: 26px;">
+          <img src="img/cyber-security-and-data-protection-concept-information-privacy-picture-id1383095428" alt="Mountains" style="width:100%">
+          <h3>Digital Marketing</h3>
+          <button onclick="openNav3()" id="brand-linkup">Read More</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="rows" id="services-2">
+        <div class="column">
+          <div class="content" style="line-height: 26px;">
+            <img src="img/images/paperless-workplace-idea-esigning-electronic-signature-document-an-picture-id1349390515" alt="Mountains" style="width:100%">
+            <div class="flip-box-back">
+                
+            </div>
+            <h3>Branding Building</h3>
+            <button onclick="openNav4()">Read More</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content" style="line-height: 26px;">
+            <img src="img/images/successful-female-grapic-designer-watching-tutorial-about-creative-picture-id1168019993" alt="Lights" style="width:100%;" >
+            <h3>Printing Services</h3>
+            <button  onclick="openNav5()">Read More</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content" style="line-height: 30px;">
+            <img src="img/images/concept-of-digital-diagramgraph-interfacesvirtual-screenconnections-picture-id912617272" alt="Nature" style="width:100%">
+            <h3>Graphics/ animation</h3>
+            <button  onclick="openNav6()">Read More</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content" style="line-height: 26px;">
+            <img src="img/images/abstract-graphic-world-map-illustration-on-blue-background-big-data-picture-id1294021851" alt="Mountains" style="width:100%">
+            <h3>Web hosting and SEO</h3>
+            <button  onclick="openNav7()">Read More</button>
+          </div>
+        </div>
+      </div>
+    
+    <div class="content" style="line-height: 26px;" id="web-dev">
+      <img src="img/photo-1484417894907-623942c8ee29" alt="Bear" style="width:100%; height: 100vh;" class="flip-1">
+      <h3 style="font-size: 20px; text-align: center;">Web Development</h3>
+      <button style="font-size: 25px;" class="services-btn" onclick="openNav8()">Read More</button>
+    </div>
+    
+    <!-- END MAIN -->
+    </div>
+
+    <!--services content starts-->
+
+    <div id="myNav" class="overlay">
+      <button></button>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+       <h2>Mobile Application Development</h2>
+       <p> Our team of highly skilled ndevelopers are renownced for building mobile apps for android and IOS by native code or using cross-platform 
+        tools such as cordova and xamarin.
+        we have a quite number of succesfull projects under our belts and poised to grow that number by looking for new and diversed challenges. 
+        our strengths lie in our ability to gather requirements and attension to details. quality can only be assured if a product is properly tested 
+        which means functionality is gauranteed and there are no new bugs introduced. we can automate your tests to cut costs, reduce time to the market 
+        and dramatically increase end-product quality. we carry out...
+              <h3>functional testing</h3>
+              <h3>automated testing</h3>
+              <h3>mobile app testing</h3>
+       </p>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      </div>
+    </div>
+
+
+    <div id="myNav1" class="overlay">
+      <button></button>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+      <div class="overlay-content">
+       <h2>industrial Software Development</h2>
+       <p> 
+          TeksTedia Ltd is a unique outsourcing company offering a full range of industrial software development services for a 
+          wide variety of business sectors. <br>
+          We assist both start-ups and established businesses with the ability to join in at every level of development lifecycle,
+          be it conceptualization, business analyses, protityping, development or deployment. <br>
+          We provide individual development on demand as well as dedicated development teams with a mix of junior and senior level developers
+          to complement your in-house team or cover specific technical needs and domain expertise. <br>
+          Above all, our ability to deliver beyound expectations, quality and cost effective rates gives us a competitive edge and a viable 
+          partner for long term collaboration. we offer the following industrial software development services...
+          <h3>Banking software</h3>
+          <h3>financial software</h3>
+          <h3>agricultural systems</h3>
+          <h3>construction systems</h3>
+          <h3>school management softwares</h3>
+       </p>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+      </div>
+    </div>
+
+    <div id="myNav2" class="overlay">
+      <button></button>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+      <div class="overlay-content">
+       <h2>graphics designing</h2>
+       <p> 
+          Tekstedia Ltd is weel known for their outstanding graphic designs, their proffessionals create  visual content to communicate messages 
+          by applying visual hierarchy and page layout techniques, our designers use typography and pictures to meet users specific needs and focus 
+          on the logic of displaying elements in interactive designs, to optimize the user experience.
+          we offer the following graphic design services...
+          <h3>flyers, brochures</h3>
+          <h3>packaging design</h3>
+          <h3>web and mobile design</h3>
+          <h3>layout and printing design</h3>
+          <h3>3D design / cartoons designs</h3>
+          <h3>brand identity and logo design</h3> 
+       </p>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+      </div>
+    </div>
+
+    <div id="myNav3" class="overlay">
+      <button></button>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav3()">&times;</a>
+      <div class="overlay-content">
+       <h2>digital marketing</h2>
+       <p> one of the main reasons which makes us and other businesses succeed is digital marketing / online marketing 
+        we promote variety of brands to connect with potential customers using the internet and other forms of digital 
+        communication.this includes not only email, social media, and web-based advertising, but also text and multimedia 
+        messages as a marketing channel. some types of digital marketing we apply are... 
+          <h3>pay per click</h3>
+          <h3>mobile trading</h3>
+          <h3>email marketing</h3>
+          <h3>affiliate marketing</h3>
+          <h3>content marketing</h3>
+          <h3>marketing analytics</h3>
+          <h3>social media marketing</h3>
+          <h3>search enfine optimization</h3>
+          
+       </p>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav3()">&times;</a>
+      </div>
+    </div>
+
+    <div id="myNav4" class="overlay">
+      <button></button>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav4()">&times;</a>
+      <div class="overlay-content">
+       <h2>brand building</h2>
+       <p> 
+          we are amoung the top brand building companies in africa, Tekstedia is well known ofr their wounderful performances in brand building, 
+          we boost brand awareness, prommote  a specific product, establish connections and provide value to the target audience. it increases cutomer satisfaction, 
+          customer loyalty, and brand recognition. we use outstanding methods in brand building, which include brand salience, performance and imagery, judgement / feelings and brand resonance 
+          some branding services we offer include... 
+          <h3>keeping clients</h3>
+          <h3>generating sales</h3> 
+          <h3>content creation</h3>
+          <h3>branding and publicity</h3>
+          <h3>make clients / customers online</h3>
+
+       </p>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav4()">&times;</a>
+      </div>
+    </div>
+
+    <div id="myNav5" class="overlay">
+      <button></button>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav5()">&times;</a>
+      <div class="overlay-content">
+       <h2>printing services</h2>
+       <p> 
+          we offer a range of solutions to you, being well equiped with all the necessary digital gadgets
+          for printing, we produce quality and well structured print outs for all your designs like brochures, 
+          postcards, flyers, mugs, coasters, magnets, posters, signs, banners, clothing, and even websites.
+          generally we offer a wide range of printing services, some of which include... 
+          <h3>quick copy</h3>
+          <h3>offset printing</h3>
+          <h3>digital printing</h3> 
+       </p>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav5()">&times;</a>
+      </div>
+    </div>
+
+    <div id="myNav6" class="overlay">
+      <button></button>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav6()">&times;</a>
+      <div class="overlay-content">
+       <h2>Graphics / animation</h2>
+       <p> we offer a variation of stop motion and possibly more conceptually associated with traditional flat cel 
+        animation and paper drawing animation, but still technically qualifying as stop motion. consisting of the animation of 
+        photographs (in whole or in parts) and other non-drawn flat visual graphic material. we bring to life static elements to 
+        capture your attention or to emphasize on a point, we do this by making use of some animation forms which include... 
+        <h3>stop motion</h3>
+        <h3>2D animation</h3>
+        <h3>3D animation</h3>
+        <h3>motion graphics</h3>
+        <h3>traditional animation</h3>
+       </p>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav6()">&times;</a>
+      </div>
+    </div>
+
+    <div id="myNav7" class="overlay">
+      <button></button>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav7()">&times;</a>
+      <div class="overlay-content">
+       <h2>web hosting and SEO</h2>
+       <p> 
+          TeksTedia Ltd is a unique tech company whivh offers  a reliable web hosting service. your business files are directly being 
+          uploaded to the main global service(internet) with a perfect hosting techniques we apply (SEO) your websites are easily made known 
+          with good search engin optimization. Tekstedia Ltd constantly carry out maintenance on all websites hosted by them.
+          <h3>we offer dedicated hosting</h3>
+          <h3>our sites are hosted using a virtual server</h3>
+          <h3>Our hosted sites offer perfect search engin optimization</h3>
+       </p>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav7()">&times;</a>
+      </div>
+    </div>
+
+    <div id="myNav8" class="overlay">
+      <button></button>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav8()">&times;</a>
+      <div class="overlay-content">
+       <h2>Web Development</h2>
+       <p> 
+          Tekstedia Ltd is a web development company whose developers can boast of over 10 years of experience in building web applications and successfully completed over 150 projects spanning 
+          over several domains such as e-learning, finance and aggregation portals. we deliver to you web applications which are tailored exactly to the way your business works. 
+          our team of UX experts, graphic designers, and rock-solid front-end professionals will make sure your website looks and works great no matter the screen size or resolution. given that most 
+          users now access web platforms by medium of smart phones, our experts have all it takes to ensure our clients websites and web applications are responsive to suit all screen sizes. 
+       </p>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav8()">&times;</a>
+      </div>
+    </div>
+
+
+
+    <!--services contentent ends-->
+  
+        <!--services section ends-->
+
+        <div class="wh-header">
+          <p>Discover Tekstedia</p>
+      </div>
+
+      
+        <div class="my-head">
+          <div class="my-header">Its always amazing working with Tekstedia, their proffesionalism is great, customer service is on point, 
+            they toggle between several tasks at once and they never miss project delivery dates
+          </div>
+          <div class="newspaper" style="line-height: 20px; font-size: 15px;">
+            Tekstedia Ltd is a full custom IT service provider with fucos on web, advanced 
+            mobile development. we cover all stages of the software development life cycle: 
+            from business analysis, design, and prototyping to the actual development, quality assurance,
+            and post-project maintenance and support.
+            Our service quality and technology use surpass any other known in middle africa.
+            We are big at IT outsourcing and crowdsourcing. You can become our partner today.
+            we are at the center of technology innovation in middle africa, by also making sure your business sites and personal sites 
+            are delivered to you beyound your expectation.  
+          </div>
+          <div class="my-footer">
+            <p>some of our programing languages include HTML, CSS, JAVASCRIPT, PHP, MYSQL, JAVA, PYTHON, C, C++, C#, VB.NET (just to name a few) and all their various frameworks. </p>
+          </div>
+        </div>
+      
+        </div>
+        
+
+<!--footer section starts-->
+    
+<section class="footer">
+    
+  <div class="box-container">
+
+      <div class="box">
+          <img src="img/logo/IMG-20220920-WA0022.jpg" alt="" style="height: 40px; width:120px;" class="ft-flip">
+          <p><img src="img/1591419798-70-tekstedia-ltd.jpg" alt="" style="height: 100px; width: 200px;" class="ft-flip"></p>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+
+      <div class="box">
+          <h3>Contact Info</h3>
+         <a href="#" class="links"> <i class="fas fa-phone"></i>+237 678 425 491</a>
+         <a href="#" class="links"> <i class="fas fa-phone"></i>+237 674 007 674</a>
+         <a href="#" class="links"> <i class="fas fa-envelope"></i> Tekstedia@gmail.com</a>
+         <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Tared Malingo, Buea Cameroon</a>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+         <a href="index.html" class="links"> <i class="fas fa-arrow-right"></i>home</a>
+         <a href="about.html" class="links"> <i class="fas fa-arrow-right"></i>About</a>
+         <a href="services.html" class="links"> <i class="fas fa-arrow-right"></i>Services</a>
+         <a href="contact.html" class="links"> <i class="fas fa-arrow-right"></i>Contact</a>
+         <a href="blogs.html" class="links"> <i class="fas fa-arrow-right"></i> Blogs</a>
+      </div>
+
+      <div class="box">
+          <h3>newsletters</h3>
+        <p> subscribe for lattest updates</p>
+        <input type="email" placeholder="your email" class="email">
+        <input type="submit" value="subscribe" class="btn">
+       
+      </div>
+  </div>
+
+  <div class="credit">created by <span>Nelson Tech </span>all rights reserved </div>
+</section>
+
+<!--footer section ends-->
+
+
+
+
+
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>  
+    <script src="js/index.js"></script>
+</body>
+</html>
